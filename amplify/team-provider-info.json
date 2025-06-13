@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-storeitfrontend-dev-9a1a5-authRole",
+      "UnauthRoleArn": "arn:aws:iam::396913736789:role/amplify-storeitfrontend-dev-9a1a5-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::396913736789:role/amplify-storeitfrontend-dev-9a1a5-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-storeitfrontend-dev-9a1a5-deployment",
+      "UnauthRoleName": "amplify-storeitfrontend-dev-9a1a5-unauthRole",
+      "StackName": "amplify-storeitfrontend-dev-9a1a5",
+      "StackId": "arn:aws:cloudformation:ap-south-1:396913736789:stack/amplify-storeitfrontend-dev-9a1a5/b80cd990-3fd1-11f0-a5c2-0266bdb0f653",
+      "AmplifyAppId": "d3jafyy9zo6xh1"
+    },
+    "categories": {
+      "auth": {
+        "storeitfrontend889b57bb": {
+          "userPoolId": "ap-south-1_f7BcQEWjW",
+          "userPoolName": "PersonalCloudUserPool",
+          "webClientId": "5qs041b27t3mmj563k2pkfvi0c",
+          "nativeClientId": "5qs041b27t3mmj563k2pkfvi0c"
+        }
+      }
+    }
+  }
+}
