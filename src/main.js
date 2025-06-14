@@ -2,7 +2,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import { Amplify } from "aws-amplify";
-import amplifyconfig from "./amplifyconfiguration.json";
+import awsExports from "./aws-exports";
 
 // Vuetify imports
 import "vuetify/styles";
@@ -11,7 +11,7 @@ import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import { mdiFile, mdiDownload, mdiDelete, mdiUpload } from "@mdi/js";
 
-Amplify.configure(amplifyconfig);
+Amplify.configure(awsExports);
 
 const vuetify = createVuetify({
   components,

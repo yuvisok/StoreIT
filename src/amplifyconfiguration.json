@@ -42,7 +42,7 @@
     "endpoints": [
       {
         "name": "StoreIT-backend",
-        "endpoint": "https://main.d3jafyy9zo6xh1.amplifyapp.com",
+        "endpoint": "https://euwtxgs2v1.execute-api.ap-south-1.amazonaws.com/Prod",
         "region": "ap-south-1"
       }
     ]
