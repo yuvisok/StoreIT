@@ -309,7 +309,7 @@ async function previewFile(fileKey) {
 
     // Get file content
     const { body } = await post({
-      apiName: "StoreITApi",
+      apiName: "StoreIT-backend",
       path: "/download",
       options: {
         body: { file_key: fileKey },
@@ -396,7 +396,7 @@ async function uploadFile() {
       const fileKey = selectedFile.value.name;
 
       const { body } = await post({
-        apiName: "StoreITApi",
+        apiName: "StoreIT-backend",
         path: "/upload",
         options: {
           body: { file_key: fileKey, file_content: base64Content },
@@ -416,7 +416,7 @@ async function uploadFile() {
 async function fetchFiles() {
   try {
     const { body } = await get({
-      apiName: "StoreITApi",
+      apiName: "StoreIT-backend",
       path: "/list",
     }).response;
 
@@ -431,7 +431,7 @@ async function fetchFiles() {
 async function downloadFile(fileKey) {
   try {
     const { body } = await post({
-      apiName: "StoreITApi",
+      apiName: "StoreIT-backend",
       path: "/download",
       options: {
         body: { file_key: fileKey },
@@ -451,7 +451,7 @@ async function downloadFile(fileKey) {
 async function deleteFile(fileKey) {
   try {
     const { body } = await post({
-      apiName: "StoreITApi",
+      apiName: "StoreIT-backend",
       path: "/delete",
       options: {
         body: { file_key: fileKey },

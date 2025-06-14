@@ -8,6 +8,12 @@
       "serviceType": "imported"
     }
   },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    }
+  },
   "parameters": {
     "AMPLIFY_auth_storeitfrontend889b57bb_nativeClientId": {
       "usedBy": [
