@@ -13,8 +13,8 @@ const awsmobile = {
             "openid",
             "profile"
         ],
-        "redirectSignIn": "https://d1ixvq6f4z10fe.cloudfront.net,https://localhost:3000",
-        "redirectSignOut": "http://localhost:8080,https://d1ixvq6f4z10fe.cloudfront.net",
+        "redirectSignIn": "https://main.d3jafyy9zo6xh1.amplifyapp.com,https://localhost:3000",
+        "redirectSignOut": "http://localhost:8080,https://main.d3jafyy9zo6xh1.amplifyapp.com",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
@@ -40,7 +40,7 @@ const awsmobile = {
     ],
     "aws_content_delivery_bucket": "torefrontend-20250614010336-hostingbucket-dev",
     "aws_content_delivery_bucket_region": "ap-south-1",
-    "aws_content_delivery_url": "https://d1ixvq6f4z10fe.cloudfront.net",
+    "aws_content_delivery_url": "https://main.d3jafyy9zo6xh1.amplifyapp.com",
     "API": {
         "endpoints": [
             {
